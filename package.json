@@ -1,0 +1,23 @@
+{
+  "name": "health-insurance-bot",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mongoose": "^7.8.3",
+    "node-telegram-bot-api": "^0.61.0",
+    "openai": "^3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "version": "1.0.0",
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
